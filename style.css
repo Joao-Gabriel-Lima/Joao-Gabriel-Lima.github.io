@@ -49,11 +49,19 @@ section h2 {
 }
 
 .skills li {
+  border: 3px solid #1e1e2f;
   background-color: #1e1e2f;
   color: #fff;
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 0.9rem;
+}
+
+.skills li:hover {
+  background-color: #fff;
+  border: 3px solid #1e1e2f;
+  color: #1e1e2f;
+  transition: 0.3s;
 }
 
 .contact ul {
@@ -87,6 +95,7 @@ section h2 {
   padding: 25px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
+  margin-bottom: 20px;
 }
 
 .project-card h3 {
